@@ -1,0 +1,74 @@
+h1 {
+ /* color: rgb(162, 123, 199); */
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 30px;
+ text-align: center;
+}
+
+body {
+    background-color: rgb(171, 236, 236);
+}
+
+h2 {
+text-align: center;
+/* color: rgb(236, 115, 115); */
+font-family: cursive;
+}
+
+h3 {
+    text-align: center;
+    /* color: rgb(146, 13, 163); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+    font-size: 40px;
+    /* color: rgb(235, 143, 110); */
+}
+
+p{
+    font-size: 24px;
+}
+
+ol {
+font-size: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+.tipos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.medio h4,
+.medio p {
+    margin: 10px 0;
+}
+
+.medio img {
+    width: 100%;
+    height: 200px;
+}
+
+.medio {
+    text-align: justify;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+css
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    text-align: justify;
+    width: 30%;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+}
+
+.item h3,
+.item p {
+    margin: 10px 0;
+}
+
+
+
+html
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INICIO BEREX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <h3>Toque aqui para ingresar a nuestro menu de mates y descubrir todas las novedaes, sobre los ingresos de mates <!-- o de yerbas, TODO LO NUEVO --></h3>
+      <img src="./imagenes/novedades.jpg" alt="Imagen 1">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, atque similique laborum architecto dolorum corporis explicabo eos perferendis ipsum minima repudiandae optio doloribus, odit deserunt in voluptatum officia molestias hic.</p>
+    </div>
+    <div class="item">
+        <h3>Toque aqui para ingresar a nuestro menu de mates y descubrir todos los tipos de mates, todo tipo de marcas</h3>
+      <img src="./imagenes/mateeee.jpg" alt="Imagen 2">
+      <p>Tipos de mates: imperial, camionero, torpedo, porongo, pezuña, vidrio</p>
+    </div>
+    <div class="item">
+        <h3>Toque aqui para ingresar a el menu de yerbas y descubrir todos los tipos de yerbas, todo tipo de marcas</h3>
+      <img src="./imagenes/image3.jpg" alt="Imagen 3">
+      <p>Tipos: con palo, saborizada, despalada, barbacua, organica, tradicional</p>
+    </div>
+  </div>
+</body>
+</html>
