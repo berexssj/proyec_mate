@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>nosotras</title>
+    <title>contacto</title>
 </head>
 <body>
     <h1> Hola clientes</h1>
     <h2> Nosotras somos: Berenice Foi y Delfina Facelli</h2> 
     <h2> Y estamos trabajando para que su experencia sea la mejor posible </h2>
     <h1>Nuestros Ig: bere_foi y delfiiifacelli</h1>
-    <h2> Nustros telefonos. 3456 203875</h2>
+    
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, fugit amet rem dolore, blanditiis ullam exercitationem
-         dolor quod maxime cumque atque architecto aliquid in? Adipisci nulla aperiam incidunt sapiente inventore.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsa. Tempore obcaecati qui, cum, quia quis quaerat corporis 
-        distinctio ipsa sed possimus quibusdam tempora tenetur. Sapiente, suscipit. Atque, ipsum repellendus.</p>
+    <form id="contactForm" action="/submit_form" method="POST">
+
+        <!-- Etiqueta y campo de entrada para el nombre -->
+        <label for="name">Nombre de usuario:</label> <!-- 'for' se enlaza con el 'id' del input correspondiente -->
+        <input type="text" id="name" name="name" required> <!-- 'type' define el tipo de campo, 'id' y 'name' son usados para identificar y procesar los datos, 'required' hace que el campo sea obligatorio -->
+        <br><br> <!-- Saltos de línea para espaciar los elementos -->
+
+        <!-- Etiqueta y campo de entrada para el correo electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required> <!-- 'type="email"' asegura que el formato del correo sea válido -->
+        <br><br>
+
+        <!-- Etiqueta y área de texto para el mensaje -->
+        <label for="message">Contrasena:</label>
+        <textarea id="message" name="message" required></textarea> <!-- 'textarea' es para textos largos; 'id' y 'name' ayudan a identificar y procesar este campo -->
+        <br><br>
+
+        <!-- Botón para enviar el formulario -->
+        <button type="submit">Enviar</button> <!-- 'type="submit"' hace que el botón envíe el formulario cuando es presionado -->
+        <button type="reset">Borrar</button>
+    </form> 
 </body>
 </html>
