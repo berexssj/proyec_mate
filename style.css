@@ -4,13 +4,13 @@
 } */
 
 .menu_princi {
-    background-color: chartreuse;
+    background-color: rgb(226, 170, 219);
     padding: 10px;
 
 }
 
 .presentacion {
-    background-color: burlywood;
+    background-color: rgb(240, 169, 122);
 }
 
 h1 {
@@ -147,7 +147,7 @@ input, textarea {
 /* Estilo del botón de envío */
 button {
     padding: 10px 20px; /* Espacio interno en el botón */
-    background-color: #5cb85c; /* Color de fondo del botón */
+    background-color: #e79ed5; /* Color de fondo del botón */
     color: white; /* Color del texto en el botón */
     border: none; /* Sin borde en el botón */
     border-radius: 3px; /* Esquinas redondeadas en el botón */
@@ -156,7 +156,7 @@ button {
 
 /* Cambia el color del botón cuando se pasa sobre él */
 button:hover {
-    background-color: #4cae4c; /* Color de fondo más oscuro cuando se pasa sobre el botón */
+    background-color: #e285d3; /* Color de fondo más oscuro cuando se pasa sobre el botón */
 }
 
 /* Estilo del botón de restablecer (borrar) */
@@ -174,3 +174,19 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background-color: #c9302c; /* Color de fondo más oscuro cuando se pasa sobre el botón */
 }
+
+.encabe {
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar {
+    background-color: #77c9c9;
+    padding: 10px;
+
+}
+
+.piee {
+    background: linear-gradient(70deg, blue, pink);
+  }
