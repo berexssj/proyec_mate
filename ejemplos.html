@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box{
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);/*cantidad y ancho de columnas*/
+        grid-template-rows: 3fr 1fr;/*cantidad y ancho de filas*/
+        gap: 20px/*a nivel de filas y columnas*/
+    }
+</style>
+</head>
+<body>
+    <div class="contenedor">
+    <div class="box">amanda</div>
+    <div class="box">cbse</div>
+    <div class="box">natura</div>
+    <div class="box">amanda</div>
+    <div class="box">amanda</div>
+    </div>
+
+</body>
+</html>
