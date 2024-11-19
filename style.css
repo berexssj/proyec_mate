@@ -44,12 +44,32 @@ ul {
     /* color: rgb(235, 143, 110); */
 }
 
+/* General para los enlaces */
+.navbar a {
+    text-decoration: none; /* Sin subrayado */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Color inicial */
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición para color y movimiento */
+}
+
+/* Efecto al pasar el mouse */
+.navbar a:hover {
+    color: #ff4500; /* Color al pasar el mouse */
+    transform: scale(1.1); /* Agrandar un poco */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
 p {
     font-size: 24px;
 }
 
 ol {
     font-size: 20px;
+    
 }
 
 .logo {
@@ -87,7 +107,7 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     background-color: #a36363;
   }
   
@@ -182,6 +202,10 @@ button[type="reset"]:hover {
     
 }
 
+.encabe_right {
+    margin-left: auto;
+}
+
 .navbar {
     background-color: #77c9c9;
     padding: 10px;
@@ -190,4 +214,29 @@ button[type="reset"]:hover {
 
 .piee {
     background: linear-gradient(70deg, blue, pink);
+    padding: 20px;
   }
+
+  .tiendas {
+    display: flex;
+    justify-content:space-around;
+    
+
+  }
+
+  .ventas {
+    margin: 25px;
+  }
+
+  .ventas h3 {
+    color: #c61c93;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+
+  .tiendas img:hover {
+    transition: 0.3s;
+    transform: scale(1.1); /* Agrandar un poco */
+    
+}
+
